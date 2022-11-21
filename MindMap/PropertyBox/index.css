@@ -1,0 +1,9 @@
+.property-box-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}

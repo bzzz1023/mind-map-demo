@@ -1,0 +1,52 @@
+.mind-map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.mind-map-tool-container {
+    width: 200px;
+    height: 100%;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.graph-container {
+    flex: 1;
+    height: 100%;
+}
+
+.mini-map-container {
+    position: absolute;
+    left: 220px;
+    bottom: 20px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.mind-map-property-box-container {
+    position: absolute;
+    width: 200px;
+    height: 98%;
+    overflow-y: auto;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: white;
+    right: 20px;
+}
+
+.propertyBox-enter {
+    transform: translateX(200px);
+}
+
+.propertyBox-enter-active {
+    transform: translateX(0px);
+    transition: all 300ms
+}
+
+.propertyBox-exit {
+    transform: translateX(0px);
+}
+
+.propertyBox-exit-active {
+    transform: translateX(200px);
+    transition: all 300ms
+}
